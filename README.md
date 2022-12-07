@@ -1,12 +1,12 @@
 
-##How To Setup CampBooking Management Application Guide 
+## How To Setup CampBooking Management Application Guide 
  
 1. Extract the zip file.
 2. Download and Install Node. Download the LTS version.
 3. Download and Install VSCode and Visual Studio.
 
 
-##In Visual Studio(Back End)
+## In Visual Studio(Back End)
 Open the Camp Booking.sln from the Extracted File 
 After that follow the below steps :
 • Open Packet Manager Console from Tools Tab > Nuget Package 
@@ -17,7 +17,7 @@ installed all the dependencies require to run solution.
 • Note Your Local host port number
 After this your backend will start to work.
 
-##In VSCode (Front-End)
+## In VSCode (Front-End)
 Open UI folder from Extracted File In VS Code
 After that follow, the below mentioned commands
 i. Open terminal and try following command
@@ -29,5 +29,6 @@ vi. now go to config.ts by following path src >app>config.ts.
 vii. There exists a port Number variable with value “60628” replace it by your 
 Backend port number.
 viii. Now run npm start on terminal.
+
 • After this your UI will be started on http://localhost:4200/home
 
